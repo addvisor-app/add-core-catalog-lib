@@ -23,5 +23,6 @@
   },
   "homepage": "https://github.com/addvisor-app/add-core-catalog-lib#readme",
   "dependencies": {
+    "axios": "^0.21.1"
   }
 }
