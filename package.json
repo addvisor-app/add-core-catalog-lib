@@ -1,0 +1,25 @@
+{
+  "name": "add-core-catalog-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "bin": {
+    "add-core-catalog-lib": "bin/add-catalog-lib.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addvisor-app/add-core-catalog-lib.git"
+  },
+  "author": "Gabriel Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/addvisor-app/add-core-catalog-lib/issues"
+  },
+  "homepage": "https://github.com/addvisor-app/add-core-catalog-lib#readme"
+}
