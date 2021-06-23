@@ -21,5 +21,7 @@
   "bugs": {
     "url": "https://github.com/addvisor-app/add-core-catalog-lib/issues"
   },
-  "homepage": "https://github.com/addvisor-app/add-core-catalog-lib#readme"
+  "homepage": "https://github.com/addvisor-app/add-core-catalog-lib#readme",
+  "dependencies": {
+  }
 }
