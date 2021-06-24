@@ -11,10 +11,9 @@ Install
 Observação
 > Esta LIB depende da `URL` da `Add Core Global Variable` que deve estar conigurada na variavel de ambiente local `process.env.ADD_GLOBAL_VARIABLE_URL`. Com esta URL ela irá buscar a variavel que define o tipo de ambiente para poder calcular corretamente o HOST do destination informado.
 
-
 ## Registry
 
-É importante que para o BPM poder consumir suas API, assim como outros microservices, você registre sua applicação e rotas para o catalogo do Core Flow, para isso basta executar o código abaixo:
+É importante que para o BPM poder consumir suas API, assim como outros microservices, você registre sua applicação e rotas para o catalogo do ADD Core Flow, para isso basta executar o código abaixo:
 
 ```javascript
 const express = require('express');
@@ -22,7 +21,7 @@ var catalog = require("add-core-catalog-lib");
 
 const app = express();
 
-//Router
+//Your Router APIs
 app.get('/add/tax/test', ...);
 app.get('/add/tax/test/:id', ...);
 app.post('/add/tax/test', ...);
@@ -78,7 +77,7 @@ console.log(response.status, response.data);
 
 ## Observer
 
-O observer tem como objetivo notificar a execução das suas APIs para o ADD Observer API do pacote Add Core Flow, que fica responsável de acionar, de forma assincrona, todos os serviços observadores reistrados para sua API, criando um  (triggersdo evento de execução da API.
+O observer tem como objetivo notificar a execução das suas APIs para o ADD Observer API do pacote Add Core Flow, que fica responsável de acionar, de forma assincrona, todos os serviços observadores reistrados para sua API, criando assi uma triggers de evento de execução da API.
 
 JavaScript Code:
 
